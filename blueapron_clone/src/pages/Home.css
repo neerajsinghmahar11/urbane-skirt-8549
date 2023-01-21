@@ -1,0 +1,5 @@
+@media all and (min-width:550px) and (max-width:700px){
+    #Choose{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }

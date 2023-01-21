@@ -29,6 +29,10 @@ import {
   
     return (
       <Box
+      position={"fixed"}
+      width={"100%"}
+      zIndex={"99"}
+      bg={"white"}
       borderBottom={1}
       borderStyle={'solid'}
       borderColor={useColorModeValue('gray.200', 'gray.900')}
@@ -134,7 +138,7 @@ import {
                   href={navItem.href ?? '#'}
                   fontSize={'sm'}
                   fontWeight={500}
-                  color={linkColor}
+                  color={"grey"}
                   _hover={{
                     textDecoration: 'none',
                     color: linkHoverColor,
@@ -265,41 +269,22 @@ import {
   
   const NAV_ITEMS = [
     {
-      label: 'Inspiration',
-      children: [
-        {
-          label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
-          href: '#',
-        },
-        {
-          label: 'New & Noteworthy',
-          subLabel: 'Up-and-coming Designers',
-          href: '#',
-        },
-      ],
+      label: 'ON THE MENU',
+    
     },
     {
-      label: 'Find Work',
-      children: [
-        {
-          label: 'Job Board',
-          subLabel: 'Find your dream design job',
-          href: '#',
-        },
-        {
-          label: 'Freelance Projects',
-          subLabel: 'An exclusive list for contract work',
-          href: '#',
-        },
-      ],
+      label: 'PRICING',
     },
     {
-      label: 'Learn Design',
+      label: 'WINE',
       href: '#',
     },
     {
-      label: 'Hire Designers',
+      label: 'GIFTS',
+      href: '#',
+    },
+    {
+      label: 'MARKET',
       href: '#',
     },
   ];
