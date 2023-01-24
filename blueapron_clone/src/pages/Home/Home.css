@@ -1,0 +1,55 @@
+
+
+
+.Features{
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+.Choose{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    gap: 40px;
+}
+.ImgHead{
+    background-size: cover;
+}
+
+.ReasonHome{
+    width: 20%;
+}
+@media all and (max-width:900px){
+    .Features{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Choose{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ImgHead{
+        background-size:cover;
+        text-align: center;
+    }
+    .ReasonHome{
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+   .Choose{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.Choose div{
+    text-align: center;
+}
+.Choose div img{
+    width: 100%;
+}
+
+  }

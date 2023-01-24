@@ -1,0 +1,28 @@
+.container{
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+    gap: 10px;
+    width: fit-content;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        gap: 0;
+        margin: auto;
+        width: 72%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        width: 72%;
+        gap: 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

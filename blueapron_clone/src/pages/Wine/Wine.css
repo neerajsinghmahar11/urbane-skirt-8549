@@ -1,0 +1,78 @@
+
+.WinePage{
+    margin-top:45px;
+}
+.WineImage{
+    height: 450px;
+    background-size: cover;
+    background-image: url("https://media.blueapron.com/assets/wine/wine-hero.webp");
+    display: flex;
+    align-items: center;
+}
+.Heading{
+    color: #002684;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Chronicle Ssm";
+    font-weight: 900;
+    line-height: 1.05;
+}
+.WineImage>div>h2{
+    color: #00a0df;
+    margin-top: 16px;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+.WineImageContent{
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    padding-left: 500px;
+}
+.WineButton{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #002684;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 27px;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 2px;
+    color: white;
+}
+.Wine-How{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 952px) {
+    .WineImageContent{
+        padding: 0;
+    }
+}
