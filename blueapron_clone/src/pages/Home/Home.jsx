@@ -26,13 +26,13 @@ const Home = () => {
             </div>
             
             <div style={{textAlign:"center"}}>
-                <img src="https://media.blueapron.com/assets/registration/homepage/chef-experience.webp?height=374&quality=90" alt="" />
+                <img src="https://media.blueapron.com/assets/registration/homepage/fresh-ingredients.webp?height=374&quality=90" alt="" />
                 <h2 style={{fontWeight:"650"}}>Fresher ingredients faster</h2>
                 <p style={{margin:"auto"}}>80% of ingredients come directly from producers.</p>
             </div>
             
             <div style={{textAlign:"center"}}>
-                <img src="https://media.blueapron.com/assets/registration/homepage/chef-experience.webp?height=374&quality=90" alt="" />
+                <img src="https://media.blueapron.com/assets/registration/homepage/flexible-mobile.webp?height=374&quality=90" alt="" />
                 <h2 style={{fontWeight:"650"}}>You're busy, so we're flexible</h2>
                 <p style={{margin:"auto"}}>Get boxes on your schedule. Skip, pause, or cancel anytime.</p>
             </div>
